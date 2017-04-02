@@ -8,8 +8,9 @@ require_dependency 'discourse'
 require_dependency 'discourse_event'
 require_dependency 'faraday'
 
-require "dotenv"
-Dotenv.load(".env.development")
+## Use dotenv for loading enviroment variables
+# require "dotenv"
+# Dotenv.load(".env.development")
 
 after_initialize do 
 	module ::Convertkit
