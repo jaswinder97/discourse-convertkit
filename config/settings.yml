@@ -1,0 +1,7 @@
+plugins:
+  convertkit_enabled:
+    default: true
+    client: true
+  convertkit_secret:
+    default: 'xsftdr345267445dfse754'
+    client: true
